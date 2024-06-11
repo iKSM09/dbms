@@ -1,0 +1,71 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "xprotocol",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 33060,
+      "driver": "MySQL",
+      "name": "mysql-db",
+      "database": "test_db",
+      "username": "root",
+      "connectionTimeout": 15
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "database": "employees",
+      "name": "Employees",
+      "username": "root",
+      "connectionTimeout": 15,
+      "group": "pgsql-db"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "connectionTimeout": 15,
+      "username": "root",
+      "database": "france",
+      "name": "France",
+      "group": "pgsql-db"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "Store",
+      "group": "pgsql-db",
+      "database": "store",
+      "username": "root"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "World",
+      "group": "pgsql-db",
+      "database": "world",
+      "username": "root",
+      "connectionTimeout": 15
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "_test_db",
+      "database": "test_db",
+      "username": "root",
+      "group": "pgsql-db"
+    }
+  ]
+}
